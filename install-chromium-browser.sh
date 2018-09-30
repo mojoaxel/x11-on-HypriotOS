@@ -4,9 +4,9 @@ set -e
 
 echo ""
 echo "Installing Chromium web browser on HypriotOS/X11"
-CHROMIUM_BASEURL=https://launchpad.net/~canonical-chromium-builds/+archive/ubuntu/stage/+build/10468838/+files
-CHROMIUM_DEB_FILE1=chromium-codecs-ffmpeg-extra_51.0.2704.106-0ubuntu0.15.04.1.1207_armhf.deb
-CHROMIUM_DEB_FILE2=chromium-browser_51.0.2704.106-0ubuntu0.15.04.1.1207_armhf.deb
+CHROMIUM_BASEURL=http://ports.ubuntu.com/ubuntu-ports/pool/universe/c/chromium-browser/
+CHROMIUM_DEB_FILE1=chromium-codecs-ffmpeg-extra_69.0.3497.100-0ubuntu1_armhf.deb
+CHROMIUM_DEB_FILE2=chromium-browser_69.0.3497.81-0ubuntu0.18.04.1_armhf.deb
 
 # --------------------------------------------------------------------
 echo ""
